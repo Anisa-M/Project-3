@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    font-family: Helvetica, Arial, Georgia;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+P {
+    color: orangered;
+    font-size: 18px;
+    font-family: Helvetica, Arial, Georgia;
+}
+nav#hori {
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: center; /* Center the nav items horizontally */
+    align-items: flex-start; /* Align items at the top of the container */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav#hori ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto; /* Center the navbar horizontally */
+    overflow: auto;
+    display: flex; /* For centering */
+    justify-content: center; /* Center items horizontally */
+}
+nav#hori ul li {
+    margin: 0 10px;
+    flex: 1 1 auto; /* Distribute available space evenly */
+}
+nav#hori ul li a {
+    display: flex; /* Use flexbox on the links */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    width: 120px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    border-radius: 3px;
+}
+nav#hori ul li a:hover {
+    background-color: #570202;
+    color: white;
+    border-radius: 40px;
+}
+
+.pictures h1, .pictures h2, #climate h2, footer P {
+    color: orange;
+}
+.pictures P {
+    color: orangered;
+    font-size: 18px;
+    font-family: Arial;
+}
+.pictures {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: 50px;
+  width: 50%;
+  height: 200px;
+}
+.pictures {
+    display: flex;
+    align-items: flex-start; /* Align items at the top, or use 'center' for vertical centering */
+    gap: 15px; /* Space between image and text */
+    margin-bottom: 20px; /* Adds space between each image-text pair */
+}
+img, video {
+  width: 1000px; /* Sets a fixed width, height scales automatically */
+  height: auto;
+  margin-bottom: 50px;
+}
