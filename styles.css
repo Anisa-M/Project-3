@@ -109,8 +109,8 @@ iframe {
   color: rgb(173, 46, 173)
 }
 
-/* Media Query 1: For screens larger than 768px */
-@media (min-width: 568px) 
+/* Media Query 1: For screens larger than 450px */
+@media (min-width: 450px) 
 {
   nav#hori ul {
     flex-direction: column;
@@ -137,8 +137,8 @@ iframe {
   }
 }
 
-/* Media Query 2: For screens larger than 480px */
-@media (min-width: 400) 
+/* Media Query 2: For screens larger than 300px */
+@media (min-width: 300) 
 {
   nav#hori {
     margin-top: 10px;
@@ -165,4 +165,10 @@ iframe {
   #main-content {
     padding: 5px;
   }
+}
+@media (min-width: 500) {
+  
+}
+#map {
+  height: 100%;
 }
