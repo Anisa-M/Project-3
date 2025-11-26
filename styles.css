@@ -50,11 +50,13 @@ nav#hori ul li a:hover {
   color: white;
   border-radius: 40px;
 }
-
+#fluid {
+  width: 60%;
+}
 #headers h1{
   color:rgb(159, 12, 9)
 }
-#headers h2{
+#headers h3{
   color:rgb(205, 71, 4)
 }
 .pictures P {
