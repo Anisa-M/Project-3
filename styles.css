@@ -141,7 +141,7 @@ iframe {
 }
 
 /* Media Query 2: For screens larger than 300px */
-@media (min-width: 768) 
+@media (min-width: 768px) 
 {
   body {
     background-color: blue;
@@ -172,7 +172,7 @@ iframe {
     padding: 5px;
   }
 }
-@media (min-width: 1024) {
+@media (min-width: 1024px) {
 
 }
 #map {
