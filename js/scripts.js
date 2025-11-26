@@ -1,5 +1,5 @@
 var chicagoCoordinates = { lat: 41.8781, lng: -87.6298 };
-document.addEventListener("DOMContentLoaded", function () {
+function enhanceMap() {
 
   var marker = new google.maps.Marker({
     position: chicagoCoordinates,
@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
 
-});
+};
 
 function init(){
   var button = document.getElementById('entrybutton');
@@ -27,10 +27,7 @@ function init(){
 
 
 function showText() {
-  var textbox = document.getElementById('entryinput');
-  var headline = document.getElementById('textoutput');
-  alert("Anisa McKinney: " + textbox.value);
-  headline.innerHTML = textbox.value;
+  alert("If you have questions, contact me at:\nms.anisamckinney@gmail.com");
 }
 
 window.addEventListener('load', init);
