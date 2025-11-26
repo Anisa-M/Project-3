@@ -80,6 +80,10 @@ img, video {
 #vid h2 {
   color: rgb(149, 2, 2);
 }
+#vid p {
+  color: black;
+  font-size: 23px;
+}
 #scriptHeaders h1{
   color: rgb(39, 2, 2);
 }
