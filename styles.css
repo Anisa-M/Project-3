@@ -112,6 +112,9 @@ iframe {
 /* Media Query 1: For screens larger than 450px */
 @media (min-width: 320px) 
 {
+  body {
+    background-color: green;
+  }
   nav#hori ul {
     flex-direction: column;
     gap: 10px;
@@ -140,6 +143,9 @@ iframe {
 /* Media Query 2: For screens larger than 300px */
 @media (min-width: 768) 
 {
+  body {
+    background-color: blue;
+  }
   nav#hori {
     margin-top: 10px;
   }
