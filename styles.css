@@ -110,7 +110,7 @@ iframe {
 }
 
 /* Media Query 1: For screens larger than 450px */
-@media (min-width: 320px) 
+@media (min-width: 320px) and (max-width: 767)
 {
   body {
     background-color: green;
@@ -141,7 +141,7 @@ iframe {
 }
 
 /* Media Query 2: For screens larger than 300px */
-@media (min-width: 768px) 
+@media (min-width: 768px) and (max-width: 1023px)
 {
   body {
     background-color: blue;
@@ -171,9 +171,6 @@ iframe {
   #main-content {
     padding: 5px;
   }
-}
-@media (min-width: 1024px) {
-
 }
 #map {
   height: 100%;
