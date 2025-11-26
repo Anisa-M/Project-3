@@ -109,7 +109,7 @@ iframe {
   color: rgb(173, 46, 173)
 }
 
-/* Media Query 1: For screens larger than 450px */
+/* Media Query 1: For screens larger than 320px */
 @media (min-width: 320px) and (max-width: 767)
 {
   body {
@@ -140,7 +140,7 @@ iframe {
   }
 }
 
-/* Media Query 2: For screens larger than 300px */
+/* Media Query 2: For screens larger than 768px */
 @media (min-width: 768px) and (max-width: 1023px)
 {
   body {
