@@ -1,10 +1,5 @@
 var chicagoCoordinates = { lat: 41.8781, lng: -87.6298 };
 document.addEventListener("DOMContentLoaded", function () {
-function myMap() {
-  map = new google.maps.Map(document.getElementById("Map"), {
-    center: chicagoCoordinates,
-    zoom: 11,
-  });
 
   var marker = new google.maps.Marker({
     position: chicagoCoordinates,
@@ -22,5 +17,20 @@ function myMap() {
 
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
-}
+
 });
+
+function init(){
+  var button = document.getElementById('entrybutton');
+  button.addEventListener('click', showText);
+}
+
+
+function showText() {
+  var textbox = document.getElementById('entryinput');
+  var headline = document.getElementById('textoutput');
+  alert("Anisa McKinney: " + textbox.value);
+  headline.innerHTML = textbox.value;
+}
+
+window.addEventListener('load', init);
