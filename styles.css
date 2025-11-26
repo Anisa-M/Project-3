@@ -110,7 +110,7 @@ iframe {
 }
 
 /* Media Query 1: For screens larger than 450px */
-@media (min-width: 450px) 
+@media (min-width: 320px) 
 {
   nav#hori ul {
     flex-direction: column;
@@ -138,7 +138,7 @@ iframe {
 }
 
 /* Media Query 2: For screens larger than 300px */
-@media (min-width: 300) 
+@media (min-width: 768) 
 {
   nav#hori {
     margin-top: 10px;
@@ -166,8 +166,8 @@ iframe {
     padding: 5px;
   }
 }
-@media (min-width: 500) {
-  
+@media (min-width: 1024) {
+
 }
 #map {
   height: 100%;
