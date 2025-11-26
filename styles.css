@@ -108,3 +108,61 @@ iframe {
 #Education li {
   color: rgb(173, 46, 173)
 }
+
+/* Media Query 1: For screens larger than 768px */
+@media (min-width: 568px) 
+{
+  nav#hori ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav#hori ul li a {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+
+  h1, h2, h3, p {
+    font-size: 16px;
+  }
+
+  #page-wrapper {
+    padding: 10px;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+/* Media Query 2: For screens larger than 480px */
+@media (min-width: 400) 
+{
+  nav#hori {
+    margin-top: 10px;
+  }
+
+  nav#hori ul {
+    gap: 5px;
+  }
+
+  nav#hori ul li a {
+    font-size: 14px;
+    border-radius: 5px;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  #main-content {
+    padding: 5px;
+  }
+}
